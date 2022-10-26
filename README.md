@@ -5,10 +5,24 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn hardhat help
+yarn hardhat test
+REPORT_GAS=true yarn hardhat test
+yarn hardhat node
+yarn hardhat run scripts/deploy.ts
 ```
 # dapp-example
+
+To install all dependencies run:
+
+```shell
+yarn install
+```
+
+Make sure to set your enviornment variables:
+
+```shell
+cp .env.example .env
+```
+
+Open the .env file & add all your secrets.
